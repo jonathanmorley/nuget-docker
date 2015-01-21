@@ -1,4 +1,4 @@
 FROM mono
 
-ENTRYPOINT nuget
-CMD "help"
+ENTRYPOINT ["nuget"]
+CMD ["help"]
