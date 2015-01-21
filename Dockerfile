@@ -1,0 +1,3 @@
+FROM mono
+
+ENTRYPOINT nuget
